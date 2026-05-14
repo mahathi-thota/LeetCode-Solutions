@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1861-rotating-the-box](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1861-rotating-the-box) |
 | [2553-separate-the-digits-in-an-array](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2553-separate-the-digits-in-an-array) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [2784-check-if-array-is-good](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2784-check-if-array-is-good) |
 | [3660-jump-game-ix](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3660-jump-game-ix) |
 ## Math
 |  |
@@ -54,8 +55,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
+| [2784-check-if-array-is-good](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2784-check-if-array-is-good) |
 ## Prefix Sum
 |  |
 | ------- |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
+## Sorting
+|  |
+| ------- |
+| [2784-check-if-array-is-good](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2784-check-if-array-is-good) |
 <!---LeetCode Topics End-->
