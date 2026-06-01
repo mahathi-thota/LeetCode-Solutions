@@ -3,19 +3,21 @@ class Solution {
     public int[] findThePrefixCommonArray(int[] A, int[] B) {
         int n = A.length;
         int[] prefixCommonArray = new int[n];
-        int[] frequency = new int[n + 1];
-        int commonCount = 0;
 
-        // Iterate through the elements of both arrays
+        // Loop through each index to calculate common elements for each prefix
         for (int currentIndex = 0; currentIndex < n; ++currentIndex) {
-            // Increment frequency of current elements in A and B
-            // Check if the element in A has appeared before (common in prefix)
-            frequency[A[currentIndex]] += 1;
-            if (frequency[A[currentIndex]] == 2) ++commonCount;
+            int commonCount = 0;
 
-            // Check if the element in B has appeared before (common in prefix)
-            frequency[B[currentIndex]] += 1;
-            if (frequency[B[currentIndex]] == 2) ++commonCount;
+            // Compare elements in A and B within the range of current prefix
+            for (int aIndex = 0; aIndex <= currentIndex; ++aIndex) {
+                for (int bIndex = 0; bIndex <= currentIndex; ++bIndex) {
+                    // Check if elements match, and count if they do
+                    if (A[aIndex] == B[bIndex]) {
+                        ++commonCount;
+                        break; // Prevent counting duplicates
+                    }
+                }
+            }
 
             // Store the count of common elements for the current prefix
             prefixCommonArray[currentIndex] = commonCount;
