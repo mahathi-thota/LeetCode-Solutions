@@ -1,100 +1,99 @@
 class Solution {
 
-    private String s;
-    private int n;
-    private long[][][] memo_cnt;
-    private long[][][] memo_sum;
+    class Node {
+        long cnt, sum;
+
+        Node(long cnt, long sum) {
+            this.cnt = cnt;
+            this.sum = sum;
+        }
+    }
+
+    private char[] digits;
+    private Node[][][][] memo;
 
     public long totalWaviness(long num1, long num2) {
-        return solve(num2) - solve(num1 - 1);
+        return calc(num2) - calc(num1 - 1);
     }
 
-    // calculate the sum of fluctuation values of all numbers in the range [0, num]
-    private long solve(long num) {
-        // if the fluctuation value of numbers less than 3 is 0
-        if (num < 100) {
-            return 0L;
-        }
-        s = Long.toString(num);
-        n = s.length();
+    private long calc(long n) {
+        if (n < 0) return 0;
 
-        // memoized search uses two independent arrays
-        // memo_cnt[pos][x][y]: the number of valid filling schemes where the current digit is at position pos, and the previous two digits are x and y
-        memo_cnt = new long[16][10][10];
-        // memo_sum[pos][x][y]: the fluctuation value when the current position is pos, and the two left digits are x and y
-        memo_sum = new long[16][10][10];
-        for (int i = 0; i < 16; i++) {
-            for (int j = 0; j < 10; j++) {
-                Arrays.fill(memo_cnt[i][j], -1);
-                Arrays.fill(memo_sum[i][j], -1);
-            }
-        }
+        digits = Long.toString(n).toCharArray();
+        int len = digits.length;
 
-        long[] result = dfs(0, -1, -1, true, true);
-        return result[1];
+        memo = new Node[len + 1][3][11][11];
+
+        return dfs(0, true, 0, 10, 10).sum;
     }
 
-    private long[] dfs(
-        int pos,
-        int prev,
-        int curr,
-        boolean isLimit,
-        boolean isLeading
-    ) {
-        // end position
-        if (pos == n) {
-            return new long[] { 1L, 0L };
-        }
-        // use memoization only when not bounded by an upper limit and without leading zeros
-        if (!isLimit && !isLeading && prev >= 0 && curr >= 0) {
-            if (memo_cnt[pos][prev][curr] != -1) {
-                return new long[] {
-                    memo_cnt[pos][prev][curr],
-                    memo_sum[pos][prev][curr],
-                };
-            }
+    private Node dfs(int pos, boolean tight, int state, int prev2, int prev1) {
+
+        if (pos == digits.length) {
+            return new Node(1, 0);
         }
 
-        // calculate the number of schemes and fluctuation value under the current conditions
-        long cnt = 0;
-        long sum = 0;
-        int up = isLimit ? (s.charAt(pos) - '0') : 9;
-        for (int digit = 0; digit <= up; ++digit) {
-            boolean newLeading = isLeading && (digit == 0);
-            // the previous number is updated to curr
-            int newPrev = curr;
-            // the current number is updated to digit
-            int newCurr = newLeading ? -1 : digit;
-            long[] sub = dfs(
-                pos + 1,
-                newPrev,
-                newCurr,
-                isLimit && (digit == up),
-                newLeading
-            );
-            long subCnt = sub[0];
-            long subSum = sub[1];
-            // only calculate the fluctuation value when there are no leading zeros
-            if (!newLeading && prev >= 0 && curr >= 0) {
-                // when the digit is a peak or a valley, update the current fluctuation value
-                if (
-                    (prev < curr && curr > digit) ||
-                    (prev > curr && curr < digit)
-                ) {
-                    sum += subCnt;
+        if (!tight && memo[pos][state][prev2][prev1] != null) {
+            return memo[pos][state][prev2][prev1];
+        }
+
+        int limit = tight ? digits[pos] - '0' : 9;
+
+        long totalCnt = 0;
+        long totalSum = 0;
+
+        for (int d = 0; d <= limit; d++) {
+
+            boolean nextTight = tight && (d == limit);
+
+            int nextState;
+            int nextPrev2;
+            int nextPrev1;
+            int add = 0;
+
+            if (state == 0) { // no digit yet
+
+                if (d == 0) {
+                    nextState = 0;
+                    nextPrev2 = 10;
+                    nextPrev1 = 10;
+                } else {
+                    nextState = 1;
+                    nextPrev2 = 10;
+                    nextPrev1 = d;
                 }
+
+            } else if (state == 1) { // exactly one digit
+
+                nextState = 2;
+                nextPrev2 = prev1;
+                nextPrev1 = d;
+
+            } else { // at least two digits
+
+                if ((prev1 > prev2 && prev1 > d) ||
+                    (prev1 < prev2 && prev1 < d)) {
+                    add = 1;
+                }
+
+                nextState = 2;
+                nextPrev2 = prev1;
+                nextPrev1 = d;
             }
 
-            cnt += subCnt;
-            sum += subSum;
+            Node child = dfs(pos + 1, nextTight,
+                             nextState, nextPrev2, nextPrev1);
+
+            totalCnt += child.cnt;
+            totalSum += child.sum + (long) add * child.cnt;
         }
 
-        if (!isLimit && !isLeading && prev >= 0 && curr >= 0) {
-            // update the memoization array
-            memo_cnt[pos][prev][curr] = cnt;
-            memo_sum[pos][prev][curr] = sum;
+        Node res = new Node(totalCnt, totalSum);
+
+        if (!tight) {
+            memo[pos][state][prev2][prev1] = res;
         }
 
-        return new long[] { cnt, sum };
+        return res;
     }
 }
