@@ -1,10 +1,13 @@
 class Solution {
     public long maxTotalValue(int[] nums, int k) {
-        int mx = 0, mn = 1 << 30;
-        for (int x : nums) {
-            mx = Math.max(mx, x);
-            mn = Math.min(mn, x);
+        int max = Integer.MIN_VALUE;
+        int min = Integer.MAX_VALUE;
+
+        for (int num : nums) {
+            if (num > max) max = num;
+            if (num < min) min = num;
         }
-        return 1L * k * (mx - mn);
+
+        return (long)(max - min) * k;
     }
 }
