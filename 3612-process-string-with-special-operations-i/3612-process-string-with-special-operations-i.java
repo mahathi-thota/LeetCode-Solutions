@@ -1,15 +1,18 @@
-class Solution {
+public class Solution {
+
     public String processStr(String s) {
         StringBuilder result = new StringBuilder();
-        for (char c : s.toCharArray()) {
-            if (Character.isLetter(c)) {
-                result.append(c);
-            } else if (c == '*') {
-                result.setLength(Math.max(0, result.length() - 1));
-            } else if (c == '#') {
-                result.append(result);
-            } else if (c == '%') {
+        for (char ch : s.toCharArray()) {
+            if (ch == '*') {
+                if (result.length() > 0) result.deleteCharAt(
+                    result.length() - 1
+                );
+            } else if (ch == '#') {
+                result.append(result.toString());
+            } else if (ch == '%') {
                 result.reverse();
+            } else {
+                result.append(ch);
             }
         }
         return result.toString();
