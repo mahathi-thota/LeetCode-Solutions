@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1345-jump-game-iv](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1345-jump-game-iv) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1752-check-if-array-is-sorted-and-rotated) |
+| [1840-maximum-building-height](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1840-maximum-building-height) |
 | [1861-rotating-the-box](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1861-rotating-the-box) |
 | [1914-cyclically-rotating-a-grid](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1914-cyclically-rotating-a-grid) |
 | [2126-destroying-asteroids](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2126-destroying-asteroids) |
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0396-rotate-function](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0396-rotate-function) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1344-angle-between-hands-of-a-clock) |
+| [1840-maximum-building-height](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1840-maximum-building-height) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1340-jump-game-v](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1340-jump-game-v) |
+| [1840-maximum-building-height](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1840-maximum-building-height) |
 | [2126-destroying-asteroids](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2126-destroying-asteroids) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2784-check-if-array-is-good](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2784-check-if-array-is-good) |
