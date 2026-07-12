@@ -1,20 +1,27 @@
-class Solution {
+import java.util.Arrays;
+import java.util.HashMap;
 
+class Solution {
     public int[] arrayRankTransform(int[] arr) {
-        // Store the rank for each number in arr
-        HashMap<Integer, Integer> numToRank = new HashMap<>();
-        int[] sortedArr = Arrays.copyOf(arr, arr.length);
-        Arrays.sort(sortedArr);
+
+        int[] sorted = arr.clone();
+        Arrays.sort(sorted);
+
+        HashMap<Integer, Integer> map = new HashMap<>();
         int rank = 1;
-        for (int i = 0; i < sortedArr.length; i++) {
-            if (i > 0 && sortedArr[i] > sortedArr[i - 1]) {
-                rank++;
+
+        for (int i = 0; i < sorted.length; i++) {
+            if (!map.containsKey(sorted[i])) {
+                map.put(sorted[i], rank++);
             }
-            numToRank.put(sortedArr[i], rank);
         }
+
+        int[] indexarray = new int[arr.length];
+
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = numToRank.get(arr[i]);
+            indexarray[i] = map.get(arr[i]);
         }
-        return arr;
+
+        return indexarray;
     }
 }
