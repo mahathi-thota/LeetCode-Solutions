@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3093-longest-common-suffix-queries](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3093-longest-common-suffix-queries) |
 | [3161-block-placement-queries](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3161-block-placement-queries) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3620-network-recovery-pathways) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1344-angle-between-hands-of-a-clock](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1344-angle-between-hands-of-a-clock) |
 | [1840-maximum-building-height](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1840-maximum-building-height) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3700-number-of-zigzag-arrays-ii) |
@@ -71,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1340-jump-game-v](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1340-jump-game-v) |
 | [1871-jump-game-vii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1871-jump-game-vii) |
 | [2770-maximum-number-of-jumps-to-reach-the-last-index](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2770-maximum-number-of-jumps-to-reach-the-last-index) |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3620-network-recovery-pathways) |
 | [3660-jump-game-ix](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3660-jump-game-ix) |
@@ -237,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## Enumeration
 |  |
