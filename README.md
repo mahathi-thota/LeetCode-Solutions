@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0007-reverse-integer) |
 | [0048-rotate-image](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0048-rotate-image) |
 | [0396-rotate-function](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0396-rotate-function) |
 | [1344-angle-between-hands-of-a-clock](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1344-angle-between-hands-of-a-clock) |
