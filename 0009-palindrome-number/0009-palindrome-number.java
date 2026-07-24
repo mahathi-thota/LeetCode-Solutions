@@ -8,7 +8,8 @@ class Solution {
         int reverse = 0;
         while(x!=0)
         {
-            reverse = reverse *10 + x%10;
+            int digit = x%10;
+            reverse = reverse *10 + digit;
             x/=10;
         }
         return s==reverse;
