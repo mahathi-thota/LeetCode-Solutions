@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1331-rank-transform-of-an-array](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1340-jump-game-v](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1340-jump-game-v) |
 | [1345-jump-game-iv](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1345-jump-game-iv) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1674-minimum-moves-to-make-array-complementary) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1840-maximum-building-height](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1840-maximum-building-height) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1288-remove-covered-intervals](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1331-rank-transform-of-an-array) |
 | [1340-jump-game-v](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1340-jump-game-v) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1840-maximum-building-height](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1840-maximum-building-height) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [2126-destroying-asteroids](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2126-destroying-asteroids) |
@@ -288,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [3620-network-recovery-pathways](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3620-network-recovery-pathways) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Stack
