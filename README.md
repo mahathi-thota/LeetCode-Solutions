@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3093-longest-common-suffix-queries](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3093-longest-common-suffix-queries) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3501-maximize-active-section-with-trade-ii) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3518-smallest-palindromic-rearrangement-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3518-smallest-palindromic-rearrangement-ii) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -263,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1871-jump-game-vii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1871-jump-game-vii) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
+| [3090-maximum-length-substring-with-two-occurrences](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Binary Indexed Tree
 |  |
 | ------- |
