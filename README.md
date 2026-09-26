@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0396-rotate-function](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0396-rotate-function) |
 | [0486-predict-the-winner](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0486-predict-the-winner) |
 | [0940-distinct-subsequences-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0940-distinct-subsequences-ii) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0115-distinct-subsequences](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0115-distinct-subsequences) |
 | [0796-rotate-string](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0796-rotate-string) |
 | [0940-distinct-subsequences-ii](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/0940-distinct-subsequences-ii) |
 | [1081-smallest-subsequence-of-distinct-characters](https://github.com/thotamahathi/LeetCode-Solutions/tree/master/1081-smallest-subsequence-of-distinct-characters) |
